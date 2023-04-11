@@ -1,0 +1,159 @@
+body{
+  background: -webkit-linear-gradient(right, #027497, #000000,#027497,#000000);
+}
+.navbar, ul{
+    background: linear-gradient(to right,#024458, black) !important;
+
+}
+.navbar{
+    position: fixed !important;
+    z-index: 3456;
+    width: 100%;
+    height: auto;
+    margin-top: -200px !important;
+}
+.modal-header, .modal-body, .modal-footer{
+    background: linear-gradient(to right,#024458, black) !important;
+
+}
+.modal-title{
+    color: aqua;
+}
+.card img{
+    height: 250px;
+    width: 100%;
+}       
+.card{
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+
+}
+.card-body{
+    background: linear-gradient(to right,#024458, black) !important;
+}
+.navbar li{
+    padding-left: 5px;
+    margin-top: 0;
+    align-items:center ;
+}
+.navbar ul li a:hover{
+    background: linear-gradient(to right,#024458, black) !important;
+    color: aqua;
+}
+.cl:hover{
+    color: #03bcf4 !important;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: #48d4ff !important;
+    transition: 0.5s;
+
+}
+.carousel-indicators{
+    transition-duration:3s;
+}
+
+.navbar{
+    color: white !important;
+    list-style: none;
+    font-size: 10px !important;
+    color: #03bcf4;
+}
+.navbar a{
+    color: rgb(154, 187, 197);
+    
+}
+.form-control{
+    outline: none !important;
+    color: white !important;
+    border-color: rgb(139, 139, 139) !important;
+    background: transparent !important;
+}
+
+
+.form-control:focus{
+    border-color: white !important;
+    outline: none !important;
+}
+.navbar ul li a{
+    color: aqua;
+}
+.navbar-brand{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 4px;
+}
+.container-fluid h2{
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    font-size: 60px; 
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    -webkit-box-reflect: below -24px linear-gradient(transparent,#0004);
+}
+.btn:hover{
+    color: aqua !important;
+    background: linear-gradient(to left,#2da9cf, black) !important;
+}
+.btn{
+    color: white !important;
+    background: linear-gradient(to right,#2da9cf, black) !important;
+    
+}
+.cl{
+    margin-left: 35px;
+}
+.nav{
+    padding-left: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.nav-link{
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+
+
+}
+.container{
+    margin-top: 200px;
+}
+h2{
+    animation: animate 5s linear infinite;
+}
+h2:nth-child(even){
+    animation-delay: 0.4s;
+}
+@keyframes animate {
+    0%,18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }    
+    18.1%,20.1%,30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%,100%
+    {
+        color:#fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4,
+        0 0 400px #03bcf4;
+     }
+    
+    }
+    .films_img{
+        width: 46%;
+        transition: 0.4s;
+        margin: 2%;
+        display: inline-block;
+    }
+    .films_img:hover{
+        transform: scale(1.2, 1.2);
+    }
